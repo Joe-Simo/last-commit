@@ -8,6 +8,10 @@ Live: https://last-commit-ofrenda.vercel.app
 
 ![A Last Commit card for atom/atom](public/screenshots/card-atom.png)
 
+## Demo
+
+A 47 second narrated walkthrough recorded on the live site: [last-commit-demo.mp4](https://last-commit-ofrenda.vercel.app/demo/last-commit-demo.mp4). The model download and writing part is sped up 12x and labeled as such; in real time it took 2 minutes 15 seconds on the CPU path in headless Chrome. The voiceover was generated with ElevenLabs text to speech ([narration-elevenlabs.mp3](https://last-commit-ofrenda.vercel.app/demo/narration-elevenlabs.mp3)).
+
 Made for the DEV Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine.
 
 ## How it works
@@ -55,7 +59,7 @@ Next.js 16, React 19, TypeScript, Tailwind CSS 4, Vitest.
 
 ## AI disclosure
 
-This project was built with help from an AI coding assistant. The words on each card are written in your browser by Qwen2.5 Instruct, or, if the model is not loaded or its reply fails the checks, assembled from the public facts.
+This project was built with help from an AI coding assistant. The words on each card are written in your browser by Qwen2.5 Instruct, or, if the model is not loaded or its reply fails the checks, assembled from the public facts. The demo voiceover was generated with ElevenLabs text to speech from a script I wrote.
 
 ## License
 
