@@ -176,7 +176,8 @@ export default function OfrendaApp() {
     (async () => {
       const be = await detectBackend();
       const saved = getFlag("model-choice") as ModelKey | null;
-      const key: ModelKey = saved && saved in MODELS ? saved : be === "webgpu" ? "large" : "small";
+      // The 1.5B model runs out of WebAssembly memory on the CPU path, so it is WebGPU only.
+      const key: ModelKey = be === "wasm" ? "small" : saved && saved in MODELS ? saved : "large";
       setBackend(be);
       setModelKey(key);
       const repo = new URLSearchParams(window.location.search).get("repo");
@@ -487,12 +488,18 @@ function ModelPanel(props: {
         </p>
       )}
       {state.state === "error" && (
-        <p className="mt-3 text-[12.5px] text-rose">The model could not run here ({state.message}). The card from the facts is still yours to keep.</p>
+        <p className="mt-3 text-[12.5px] text-rose">
+          The model could not run here ({/bad_alloc|memory/i.test(state.message) ? "it ran out of memory" : state.message}). The card from the facts is still yours to keep.
+        </p>
       )}
-      <button type="button" onClick={props.onSwitch} className="mt-3 text-[12.5px] text-ash underline decoration-hairline underline-offset-4 hover:text-bone">
-        Swap to {props.otherName}
-        {props.otherSize ? ` (${props.otherSize})` : ""}
-      </button>
+      {props.backend === "webgpu" ? (
+        <button type="button" onClick={props.onSwitch} className="mt-3 text-[12.5px] text-ash underline decoration-hairline underline-offset-4 hover:text-bone">
+          Swap to {props.otherName}
+          {props.otherSize ? ` (${props.otherSize})` : ""}
+        </button>
+      ) : props.backend === "wasm" ? (
+        <p className="mt-3 text-[12.5px] text-dust">The larger 1.5B model writes better lines, but it needs WebGPU, which this browser does not offer.</p>
+      ) : null}
     </div>
   );
 }

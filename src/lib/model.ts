@@ -15,7 +15,7 @@ export const MODELS = {
     id: "onnx-community/Qwen2.5-1.5B-Instruct",
     name: "Qwen2.5 1.5B Instruct",
     short: "Qwen2.5 1.5B",
-    sizes: { webgpu: "about 1.2 GB", wasm: "about 1.8 GB" },
+    sizes: { webgpu: "about 1.2 GB", wasm: "WebGPU only" },
   },
 } as const;
 
@@ -45,8 +45,11 @@ export type WorkerResponse =
 
 export async function detectBackend(): Promise<Backend> {
   try {
-    const gpu = (navigator as Navigator & { gpu?: { requestAdapter(): Promise<unknown> } }).gpu;
-    if (gpu && (await gpu.requestAdapter())) return "webgpu";
+    type Adapter = { features: { has(name: string): boolean } };
+    const gpu = (navigator as Navigator & { gpu?: { requestAdapter(): Promise<Adapter | null> } }).gpu;
+    const adapter = gpu ? await gpu.requestAdapter() : null;
+    // The WebGPU weights are 16 bit float, so the adapter has to support f16 shaders.
+    if (adapter && adapter.features.has("shader-f16")) return "webgpu";
   } catch {
     // WebGPU is not available here, use WebAssembly.
   }

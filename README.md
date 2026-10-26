@@ -29,9 +29,9 @@ There is no server and no account. The only network calls are to GitHub's public
 | Model | WebGPU (q4f16) | CPU (q4) |
 | --- | --- | --- |
 | Qwen2.5 0.5B Instruct | about 480 MB | about 790 MB |
-| Qwen2.5 1.5B Instruct | about 1.2 GB | about 1.8 GB |
+| Qwen2.5 1.5B Instruct | about 1.2 GB | not offered |
 
-The 1.5B model is the default on WebGPU and writes noticeably better lines. The 0.5B model is the default on CPU. You can swap with one click. The 8 bit CPU weights were tried and rejected, they produced garbled text.
+The 1.5B model is the default on WebGPU and writes noticeably better lines. On WebGPU you can swap between them with one click. On the CPU path only the 0.5B model is offered: the 1.5B weights (about 1.8 GB at 4 bit) failed with an out of memory error inside WebAssembly when I tried them in headless Chrome. The 8 bit CPU weights were tried and rejected, they produced garbled text.
 
 ## Develop
 
