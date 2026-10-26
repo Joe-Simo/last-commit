@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --night: #120d11;
+  --altar: #1b1318;
+  --altar-2: #22171d;
+  --bone: #f3e9dc;
+  --ash: #b3a49a;
+  --dust: #7d6f68;
+  --hairline: rgba(243, 233, 220, 0.12);
+  --marigold: #f0a136;
+  --marigold-deep: #d9771f;
+  --rose: #c75b72;
+  --jade: #4f9a8f;
+  --violet: #8a6bb3;
+}
+
+@theme inline {
+  --color-night: var(--night);
+  --color-altar: var(--altar);
+  --color-altar-2: var(--altar-2);
+  --color-bone: var(--bone);
+  --color-ash: var(--ash);
+  --color-dust: var(--dust);
+  --color-hairline: var(--hairline);
+  --color-marigold: var(--marigold);
+  --color-marigold-deep: var(--marigold-deep);
+  --color-rose: var(--rose);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  background: var(--night);
+  color: var(--bone);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(240, 161, 54, 0.07), transparent 70%),
+    var(--night);
+}
+
+::selection {
+  background: rgba(240, 161, 54, 0.35);
+}
+
+.glow {
+  background:
+    radial-gradient(120% 70% at 50% 108%, rgba(240, 150, 50, 0.22), rgba(240, 150, 50, 0.05) 45%, transparent 70%),
+    linear-gradient(180deg, var(--altar-2), var(--altar));
+}
+
+@keyframes flicker {
+  0%, 100% { transform: scaleY(1) translateY(0); opacity: 1; }
+  20% { transform: scaleY(1.06) translateY(-0.5px); opacity: 0.94; }
+  45% { transform: scaleY(0.96) translateY(0.4px); opacity: 1; }
+  70% { transform: scaleY(1.03) translateY(-0.3px); opacity: 0.9; }
+}
+
+.flame {
+  transform-origin: 50% 100%;
+  animation: flicker 2.6s ease-in-out infinite;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.rise {
+  animation: rise 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 1; }
+}
+
+.breathe {
+  animation: breathe 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flame, .rise, .breathe {
+    animation: none;
+  }
+}

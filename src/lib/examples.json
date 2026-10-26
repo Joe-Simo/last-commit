@@ -1,0 +1,610 @@
+[
+  {
+    "owner": "atom",
+    "repo": "atom",
+    "url": "https://github.com/atom/atom",
+    "description": ":atom: The hackable text editor",
+    "homepage": "https://atom.io",
+    "archived": true,
+    "fork": false,
+    "createdAt": "2012-01-20T18:18:21Z",
+    "pushedAt": "2023-01-03T10:49:48Z",
+    "stars": 60710,
+    "forks": 17160,
+    "language": "JavaScript",
+    "license": "MIT",
+    "readmeIntro": "Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.",
+    "commits": [
+      {
+        "sha": "1c3bd35ce238dc0491def9e1780d04748d8e18af",
+        "message": "Merge pull request #25709 from atom/fix-snapshot-result-macos\n\nFix `File` -> `Open…` menu on macOS",
+        "date": "2022-11-22T16:11:57Z",
+        "author": "sergiou87",
+        "url": "https://github.com/atom/atom/commit/1c3bd35ce238dc0491def9e1780d04748d8e18af"
+      },
+      {
+        "sha": "6b696d632941c18a683d01eaf0bf3dc38daf6ca7",
+        "message": "Use the new naming format for snapshots on macOS",
+        "date": "2022-11-22T15:56:11Z",
+        "author": "sergiou87",
+        "url": "https://github.com/atom/atom/commit/6b696d632941c18a683d01eaf0bf3dc38daf6ca7"
+      },
+      {
+        "sha": "f54276d38cd112d64c4c9ccdb982cf52ee682c8f",
+        "message": "1.65.0-dev",
+        "date": "2022-11-16T14:31:05Z",
+        "author": "hubot",
+        "url": "https://github.com/atom/atom/commit/f54276d38cd112d64c4c9ccdb982cf52ee682c8f"
+      },
+      {
+        "sha": "a0bbe30d36fe352041a9766656ca60f5946793f6",
+        "message": "1.64.0-dev",
+        "date": "2022-11-16T11:39:58Z",
+        "author": "hubot",
+        "url": "https://github.com/atom/atom/commit/a0bbe30d36fe352041a9766656ca60f5946793f6"
+      },
+      {
+        "sha": "729daa2f0aa47bcbcd89ac723f1c7938e4199aad",
+        "message": "Merge pull request #25694 from atom/fix-uploads\n\nRemove dependancies.",
+        "date": "2022-11-15T05:29:26Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/729daa2f0aa47bcbcd89ac723f1c7938e4199aad"
+      },
+      {
+        "sha": "4decada54e6512184cb1ae9f238c44264fe4ce41",
+        "message": "Remove dependancies.",
+        "date": "2022-11-15T05:27:44Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/4decada54e6512184cb1ae9f238c44264fe4ce41"
+      },
+      {
+        "sha": "8f388db20c7c56996905ac9056a5b6d2111b8d1d",
+        "message": "Merge pull request #25693 from atom/disable-tests\n\nDisable tests.",
+        "date": "2022-11-15T05:25:04Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/8f388db20c7c56996905ac9056a5b6d2111b8d1d"
+      },
+      {
+        "sha": "3f66da9b6f3388f2f9e6ce381f1f1cec407d1698",
+        "message": "Disable tests.\n\nDue to the instability of atom's package api, we have the CI process\nfailing to install some packages. This failure is random and there is no\nway to have consistent results.",
+        "date": "2022-11-15T04:47:26Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/3f66da9b6f3388f2f9e6ce381f1f1cec407d1698"
+      },
+      {
+        "sha": "2291b59a289bc2d9d3bd64482b2964eaf0cb5e11",
+        "message": "Merge pull request #25684 from atom/install-from-github\n\ninstall from github",
+        "date": "2022-11-10T15:46:07Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/2291b59a289bc2d9d3bd64482b2964eaf0cb5e11"
+      },
+      {
+        "sha": "c8f8c065dd4f224f7823ec3767dc52f34465d102",
+        "message": "Merge branch 'sunsetting-announcement' into install-from-github",
+        "date": "2022-11-09T16:24:42Z",
+        "author": "sadick254",
+        "url": "https://github.com/atom/atom/commit/c8f8c065dd4f224f7823ec3767dc52f34465d102"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "kevinsawicki",
+        "contributions": 9239,
+        "url": "https://github.com/kevinsawicki"
+      },
+      {
+        "login": "benogle",
+        "contributions": 2266,
+        "url": "https://github.com/benogle"
+      },
+      {
+        "login": "maxbrunsfeld",
+        "contributions": 1859,
+        "url": "https://github.com/maxbrunsfeld"
+      },
+      {
+        "login": "as-cii",
+        "contributions": 1072,
+        "url": "https://github.com/as-cii"
+      },
+      {
+        "login": "probablycorey-and-nathan",
+        "contributions": 931,
+        "url": "https://github.com/probablycorey-and-nathan"
+      },
+      {
+        "login": "smashwilson",
+        "contributions": 732,
+        "url": "https://github.com/smashwilson"
+      }
+    ],
+    "latestRelease": {
+      "tag": "v1.60.0",
+      "date": "2022-03-08T09:58:25Z",
+      "url": "https://github.com/atom/atom/releases/tag/v1.60.0"
+    },
+    "fetchedAt": "2026-10-26T19:14:46.890Z"
+  },
+  {
+    "owner": "adobe",
+    "repo": "brackets",
+    "url": "https://github.com/adobe/brackets",
+    "description": "An open source code editor for the web, written in JavaScript, HTML and CSS.",
+    "homepage": "http://brackets.io",
+    "archived": true,
+    "fork": false,
+    "createdAt": "2011-12-07T21:14:40Z",
+    "pushedAt": "2022-06-12T08:19:24Z",
+    "stars": 32979,
+    "forks": 7429,
+    "language": "JavaScript",
+    "license": "MIT",
+    "readmeIntro": "Brackets is a modern open-source code editor for HTML, CSS and JavaScript that's built in HTML, CSS and JavaScript.",
+    "commits": [
+      {
+        "sha": "d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a",
+        "message": "Change hyperlink",
+        "date": "2021-03-18T13:52:19Z",
+        "author": "swmitra",
+        "url": "https://github.com/adobe/brackets/commit/d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a"
+      },
+      {
+        "sha": "f0cae55ce80c380a5c5c665110623f21cce966b3",
+        "message": "EOL Notification (#15325)\n\n* Update README.md\r\n\r\n* Update README.md",
+        "date": "2021-03-01T11:10:07Z",
+        "author": "swmitra",
+        "url": "https://github.com/adobe/brackets/commit/f0cae55ce80c380a5c5c665110623f21cce966b3"
+      },
+      {
+        "sha": "ca877bb447573bd15d0813b1ddec5076f736b8a7",
+        "message": "Merge pull request #15106 from niteskum/AssociateGraphicAfterGUIDGenerated\n\nGraphics File Associate workflow should get triggered after UUID is generated",
+        "date": "2020-03-27T10:56:06Z",
+        "author": "niteskum",
+        "url": "https://github.com/adobe/brackets/commit/ca877bb447573bd15d0813b1ddec5076f736b8a7"
+      },
+      {
+        "sha": "d99dbdd6bce812f9c71d9693b0a1142ba2de41b0",
+        "message": "Graphics File Assciate should get triggered after UUID is generated",
+        "date": "2020-03-27T07:25:09Z",
+        "author": "Nitesh Kumar",
+        "url": "https://github.com/adobe/brackets/commit/d99dbdd6bce812f9c71d9693b0a1142ba2de41b0"
+      },
+      {
+        "sha": "f37493fde67d4992acc04bce682c1a095b34e9b7",
+        "message": "Merge pull request #15100 from niteskum/windowsPathCorrection\n\nWindows path correction",
+        "date": "2020-03-24T06:33:45Z",
+        "author": "niteskum",
+        "url": "https://github.com/adobe/brackets/commit/f37493fde67d4992acc04bce682c1a095b34e9b7"
+      },
+      {
+        "sha": "35917cb272d681230d778f03bfb96d7b56c19c6c",
+        "message": "Addressed review comments",
+        "date": "2020-03-24T06:22:02Z",
+        "author": "Nitesh Kumar",
+        "url": "https://github.com/adobe/brackets/commit/35917cb272d681230d778f03bfb96d7b56c19c6c"
+      },
+      {
+        "sha": "90cf9b09457a66237ade823b718a23f8ebe6f31b",
+        "message": "Revert \"Revert \"check iin config file\"\"\n\nThis reverts commit 2356f32a34d8a825ca1f41b1b4cb93cf94b92ecb.",
+        "date": "2020-03-23T14:23:10Z",
+        "author": "Nitesh Kumar",
+        "url": "https://github.com/adobe/brackets/commit/90cf9b09457a66237ade823b718a23f8ebe6f31b"
+      },
+      {
+        "sha": "e7613db5a72aeed2839208e39454a0900c8daf52",
+        "message": "Merge branch 'master' of https://github.com/adobe/brackets into windowsPathCorrection",
+        "date": "2020-03-23T14:16:28Z",
+        "author": "Nitesh Kumar",
+        "url": "https://github.com/adobe/brackets/commit/e7613db5a72aeed2839208e39454a0900c8daf52"
+      },
+      {
+        "sha": "a552a10d89ee5e7caafa5faf9e9fa3d0fd332e64",
+        "message": "Merge pull request #15098 from niteskum/lodashModuleUpgrade\n\nupgrading lodash node module to 4.17.15 from 4.17.4",
+        "date": "2020-03-23T14:09:48Z",
+        "author": "niteskum",
+        "url": "https://github.com/adobe/brackets/commit/a552a10d89ee5e7caafa5faf9e9fa3d0fd332e64"
+      },
+      {
+        "sha": "2356f32a34d8a825ca1f41b1b4cb93cf94b92ecb",
+        "message": "Revert \"check iin config file\"\n\nThis reverts commit d50cb268232ed190ce6333340249f207fb86b373.",
+        "date": "2020-03-23T11:13:52Z",
+        "author": "Nitesh Kumar",
+        "url": "https://github.com/adobe/brackets/commit/2356f32a34d8a825ca1f41b1b4cb93cf94b92ecb"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "redmunds",
+        "contributions": 1842,
+        "url": "https://github.com/redmunds"
+      },
+      {
+        "login": "jasonsanjose",
+        "contributions": 1724,
+        "url": "https://github.com/jasonsanjose"
+      },
+      {
+        "login": "peterflynn",
+        "contributions": 1064,
+        "url": "https://github.com/peterflynn"
+      },
+      {
+        "login": "gruehle",
+        "contributions": 1003,
+        "url": "https://github.com/gruehle"
+      },
+      {
+        "login": "RaymondLim",
+        "contributions": 905,
+        "url": "https://github.com/RaymondLim"
+      },
+      {
+        "login": "dangoor",
+        "contributions": 904,
+        "url": "https://github.com/dangoor"
+      }
+    ],
+    "latestRelease": {
+      "tag": "release-1.14.2",
+      "date": "2020-04-06T06:09:32Z",
+      "url": "https://github.com/adobe/brackets/releases/tag/release-1.14.2"
+    },
+    "fetchedAt": "2026-10-26T19:14:47.883Z"
+  },
+  {
+    "owner": "angular",
+    "repo": "angular.js",
+    "url": "https://github.com/angular/angular.js",
+    "description": "AngularJS - HTML enhanced for web apps!",
+    "homepage": "https://angularjs.org",
+    "archived": true,
+    "fork": false,
+    "createdAt": "2010-01-06T00:34:37Z",
+    "pushedAt": "2024-04-12T17:43:16Z",
+    "stars": 58471,
+    "forks": 26929,
+    "language": "JavaScript",
+    "license": "MIT",
+    "readmeIntro": "AngularJS lets you write client-side web applications as if you had a smarter browser. It lets you use good old HTML (or HAML, Jade/Pug and friends!) as your template language and lets you extend HTML’s syntax to express your application’s components clearly and succinctly.",
+    "commits": [
+      {
+        "sha": "d8f77817eb5c98dec5317bc3756d1ea1812bcfbe",
+        "message": "chore: update post LTS links (#17187)\n\nCo-authored-by: Mike Brocchi <brocco@users.noreply.github.com>",
+        "date": "2024-04-12T17:43:13Z",
+        "author": "Brocco",
+        "url": "https://github.com/angular/angular.js/commit/d8f77817eb5c98dec5317bc3756d1ea1812bcfbe"
+      },
+      {
+        "sha": "47bf11ee94664367a26ed8c91b9b586d3dd420f5",
+        "message": "docs(changelog): fix wrong date in changelog for 1.8.3",
+        "date": "2022-04-12T15:48:22Z",
+        "author": "jelbourn",
+        "url": "https://github.com/angular/angular.js/commit/47bf11ee94664367a26ed8c91b9b586d3dd420f5"
+      },
+      {
+        "sha": "b5aa42586e5750b780324bb50e6a0bffda8cb6be",
+        "message": "docs(changelog): fix typo in changelog for 1.8.3",
+        "date": "2022-04-11T20:26:36Z",
+        "author": "jelbourn",
+        "url": "https://github.com/angular/angular.js/commit/b5aa42586e5750b780324bb50e6a0bffda8cb6be"
+      },
+      {
+        "sha": "cf16b241e1c61c22a820ed8211bc2332ede88e62",
+        "message": "docs(changelog): add release notes for 1.8.3\n\nWe're doing this final release to update poackage README files for npm.",
+        "date": "2022-04-07T16:13:37Z",
+        "author": "jelbourn",
+        "url": "https://github.com/angular/angular.js/commit/cf16b241e1c61c22a820ed8211bc2332ede88e62"
+      },
+      {
+        "sha": "757d56ea9c3de6245df7e5cac025dbf7077082ff",
+        "message": "docs(*): update end-of-life messages (#17177)\n\n* Docs homepage\r\n* Docs banner\r\n* Security and support pages\r\n* GitHub README\r\n* CHANGELOG",
+        "date": "2022-03-18T19:04:55Z",
+        "author": "jelbourn",
+        "url": "https://github.com/angular/angular.js/commit/757d56ea9c3de6245df7e5cac025dbf7077082ff"
+      },
+      {
+        "sha": "f3624374e436cec6a8e42ff9298df429c26f8c56",
+        "message": "docs(eol): add EOL options text and link to template header used in every page\n\nCloses #17164",
+        "date": "2021-12-09T23:00:31Z",
+        "author": "Ed Clement",
+        "url": "https://github.com/angular/angular.js/commit/f3624374e436cec6a8e42ff9298df429c26f8c56"
+      },
+      {
+        "sha": "fb04e424bb0826c07090fa4cac91b6fbe7108b18",
+        "message": "test(Angular): fix `angularInit()` tests on Safari v15+\n\nPreviously, the `angularInit()` tests assumed that the Safari browser\nuses the `safari-extension:` protocol for browser extension URLs. This\nis true for versions <15. However, since v15, Safari on iOS only\nrecognizes the `chrome-extension:` protocol, which causes the tests to\nfail ([example failure][1]).\n\nThis commit updates the tests to use the correct protocol according to\nthe version of Safari used.\n\nNOTE:\nOn macOS, Safari v15+ recognizes both `safari-extension:` and\n`chrome-extension:`, so it is OK to always use the later with Safari\nv15+ (regardless of the platform).\n\n[1]: https://circleci.com/gh/angular/angular.js/3527\n\nCo-authored-by: George Kalpakas <kalpakas.g@gmail.com>\n\nCloses #17166",
+        "date": "2021-12-09T20:20:18Z",
+        "author": "Ed Clement",
+        "url": "https://github.com/angular/angular.js/commit/fb04e424bb0826c07090fa4cac91b6fbe7108b18"
+      },
+      {
+        "sha": "6a52c4f90cc661c0605cd98e6cb04455ba913f58",
+        "message": "test(input): fix tests on Firefox v93+\n\nSince version 93, Firefox started more closely following the spec on\nformatting `datetime-local` input values by removing trailing zeros from\nthe string representation of the value. This causes some of our tests to\nfail ([example failure][1]).\n\nFor example, a value is reported by Firefox as `2009-01-06T16:25` while\nthe tests expect `2009-01-06T16:25:00.000`. I.e. Firefox started leaving\nout seconds/milliseconds if they are zero.\n\nAccording to [MDN][2], this is the correct behavior according to the\nspec. Indeed the spec says that [if the value of the element is a valid\nlocal date and time string, then it must be set to a **valid normalized\nlocal date and time string**][3], where **valid normalized local date\nand time string** is [defined as consisting of][4]:\n> - A valid date string representing the date.\n> - A U+0054 LATIN CAPITAL LETTER T character (T).\n> - A valid time string representing the time, expressed as the\n>   **shortest possible string** for the given time (e.g. **omitting the\n>   seconds component** entirely if the given time is zero seconds past\n>   the minute).\n\nThis commit fixes the relevant tests by explicitly specifying non-zero\nvalues for seconds and milliseconds.\n\n[1]: https://circleci.com/gh/angular/angular.js/3527\n[2]: https://developer.mozilla.org/en-US/docs/Web/HTML/Date_and_time_formats\n  #local_date_and_time_strings\n[3]: https://html.spec.whatwg.org/multipage/input.html\n  #local-date-and-time-state-(type=datetime-local)\n[4]: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html\n  #concept-datetime-local\n\nCo-authored-by: George Kalpakas <kalpakas.g@gmail.com>",
+        "date": "2021-12-09T20:19:58Z",
+        "author": "Ed Clement",
+        "url": "https://github.com/angular/angular.js/commit/6a52c4f90cc661c0605cd98e6cb04455ba913f58"
+      },
+      {
+        "sha": "ed30c4d0ea820d79601ca17e2c670e6acae16eb7",
+        "message": "docs(README.md): add wiki link to MVC\n\nAdd a wiki link to MVC in case people have not heard of it before and\nwant to read about it more.\n\nCloses #17152",
+        "date": "2021-08-24T08:24:46Z",
+        "author": "Gkolman",
+        "url": "https://github.com/angular/angular.js/commit/ed30c4d0ea820d79601ca17e2c670e6acae16eb7"
+      },
+      {
+        "sha": "4032655100dfb085e20e07d364f6292d64cfc15c",
+        "message": "chore(deps): bump js-yaml from 3.5.5 to 3.14.1\n\nBumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.5.5 to 3.14.1.\n- [Release notes](https://github.com/nodeca/js-yaml/releases)\n- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/nodeca/js-yaml/compare/3.5.5...3.14.1)\n\nCloses #17147",
+        "date": "2021-06-12T13:25:47Z",
+        "author": "dependabot[bot]",
+        "url": "https://github.com/angular/angular.js/commit/4032655100dfb085e20e07d364f6292d64cfc15c"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "IgorMinar",
+        "contributions": 1441,
+        "url": "https://github.com/IgorMinar"
+      },
+      {
+        "login": "petebacondarwin",
+        "contributions": 855,
+        "url": "https://github.com/petebacondarwin"
+      },
+      {
+        "login": "mhevery",
+        "contributions": 730,
+        "url": "https://github.com/mhevery"
+      },
+      {
+        "login": "Narretz",
+        "contributions": 525,
+        "url": "https://github.com/Narretz"
+      },
+      {
+        "login": "gkalpak",
+        "contributions": 431,
+        "url": "https://github.com/gkalpak"
+      },
+      {
+        "login": "vojtajina",
+        "contributions": 408,
+        "url": "https://github.com/vojtajina"
+      }
+    ],
+    "latestRelease": null,
+    "fetchedAt": "2026-10-26T19:14:48.832Z"
+  },
+  {
+    "owner": "mozilla",
+    "repo": "BrowserQuest",
+    "url": "https://github.com/mozilla/BrowserQuest",
+    "description": "DEPRECATED - A HTML5/JavaScript multiplayer game experiment",
+    "homepage": "http://browserquest.mozilla.org/",
+    "archived": true,
+    "fork": false,
+    "createdAt": "2011-09-30T18:47:48Z",
+    "pushedAt": "2023-07-14T00:56:50Z",
+    "stars": 9373,
+    "forks": 2936,
+    "language": "JavaScript",
+    "license": "",
+    "readmeIntro": "BrowserQuest is a HTML5/JavaScript multiplayer game experiment.",
+    "commits": [
+      {
+        "sha": "af32d247cac3495ca430d0effbb88dd5f3250b2c",
+        "message": "Update map exporter docs",
+        "date": "2012-04-10T17:30:26Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/af32d247cac3495ca430d0effbb88dd5f3250b2c"
+      },
+      {
+        "sha": "fc9f6c6b6f8bc1e7f84aaaee96bacc5021f58861",
+        "message": "Add map exporter tool",
+        "date": "2012-04-10T17:22:35Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/fc9f6c6b6f8bc1e7f84aaaee96bacc5021f58861"
+      },
+      {
+        "sha": "8d9856e17f7b79ca30cc24b919fd869c08a8ff8a",
+        "message": "Fix require call and missing semicolon",
+        "date": "2012-04-06T15:18:39Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/8d9856e17f7b79ca30cc24b919fd869c08a8ff8a"
+      },
+      {
+        "sha": "b49c329251647990520b3122579609bd5f5de4c0",
+        "message": "Merge remote branch 'bnoordhuis/metrics'\n\nConflicts:\n\tserver/README.md",
+        "date": "2012-04-06T15:06:04Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/b49c329251647990520b3122579609bd5f5de4c0"
+      },
+      {
+        "sha": "f580f2f4c85c080b2906561a227044e4e3ce6dcd",
+        "message": "Merge remote branch 'mkrecny/deps'",
+        "date": "2012-04-06T14:54:46Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/f580f2f4c85c080b2906561a227044e4e3ce6dcd"
+      },
+      {
+        "sha": "4e173bab1819516f537d6df6041568a30de6eea1",
+        "message": "Add sound files",
+        "date": "2012-04-06T14:00:28Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/4e173bab1819516f537d6df6041568a30de6eea1"
+      },
+      {
+        "sha": "25f2298c004bc852edba302fe74cc805795ee7d5",
+        "message": "Update license and readme",
+        "date": "2012-04-06T13:14:27Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/25f2298c004bc852edba302fe74cc805795ee7d5"
+      },
+      {
+        "sha": "7d818ace2ede5decd0c6b419ff7c9539aed689c7",
+        "message": "Add licensing information",
+        "date": "2012-03-29T16:22:04Z",
+        "author": "sork",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/7d818ace2ede5decd0c6b419ff7c9539aed689c7"
+      },
+      {
+        "sha": "cfa6f4461db6f94f076c6c358420c41dd6b1b6e7",
+        "message": "doc: server metrics require the memcache module",
+        "date": "2012-03-28T15:40:53Z",
+        "author": "bnoordhuis",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/cfa6f4461db6f94f076c6c358420c41dd6b1b6e7"
+      },
+      {
+        "sha": "cfde236247eb07afa6a1ae4bf033932e2ff035ae",
+        "message": "server: lazy-load memcache module\n\nDon't require that the memcache module is installed if metrics_enabled=false.",
+        "date": "2012-03-28T15:40:51Z",
+        "author": "bnoordhuis",
+        "url": "https://github.com/mozilla/BrowserQuest/commit/cfde236247eb07afa6a1ae4bf033932e2ff035ae"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "sork",
+        "contributions": 81,
+        "url": "https://github.com/sork"
+      },
+      {
+        "login": "glecollinet",
+        "contributions": 62,
+        "url": "https://github.com/glecollinet"
+      },
+      {
+        "login": "mkrecny",
+        "contributions": 8,
+        "url": "https://github.com/mkrecny"
+      },
+      {
+        "login": "bnoordhuis",
+        "contributions": 2,
+        "url": "https://github.com/bnoordhuis"
+      }
+    ],
+    "latestRelease": null,
+    "fetchedAt": "2026-10-26T19:14:49.776Z"
+  },
+  {
+    "owner": "tj",
+    "repo": "co",
+    "url": "https://github.com/tj/co",
+    "description": "The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)",
+    "homepage": "",
+    "archived": false,
+    "fork": false,
+    "createdAt": "2013-06-06T04:06:16Z",
+    "pushedAt": "2020-12-15T07:22:26Z",
+    "stars": 11829,
+    "forks": 780,
+    "language": "JavaScript",
+    "license": "MIT",
+    "readmeIntro": "Generator based control flow goodness for nodejs and the browser, using promises, letting you write non-blocking code in a nice-ish way.",
+    "commits": [
+      {
+        "sha": "249bbdc72da24ae44076afd716349d2089b31c4c",
+        "message": "Add nodejs stable and LTS versions to travis tests (#300)",
+        "date": "2016-10-17T04:06:25Z",
+        "author": "shimont",
+        "url": "https://github.com/tj/co/commit/249bbdc72da24ae44076afd716349d2089b31c4c"
+      },
+      {
+        "sha": "497742cc384dfb63b7010edc04c370766fe450f0",
+        "message": "Merge pull request #268 from saadq/patch-1\n\nAdd newline for consistency",
+        "date": "2016-06-30T21:45:12Z",
+        "author": "tj",
+        "url": "https://github.com/tj/co/commit/497742cc384dfb63b7010edc04c370766fe450f0"
+      },
+      {
+        "sha": "f7aa201b994af4a7461f3f4032e31bf096d959eb",
+        "message": "Merge pull request #279 from fkling/patch-1\n\nasync/await is not part of ES7",
+        "date": "2016-06-22T16:52:52Z",
+        "author": "tj",
+        "url": "https://github.com/tj/co/commit/f7aa201b994af4a7461f3f4032e31bf096d959eb"
+      },
+      {
+        "sha": "c66f0a40fbf2d178342543b3a65766441e396c4b",
+        "message": "async/await is not part of ES7\n\nI assume ES7 is a synonym for ES2016 here. ES2016 was just released and async/await is not a part of it. I believe keeping this expression will confuse people who don't really follow the standard process.",
+        "date": "2016-06-22T14:58:02Z",
+        "author": "fkling",
+        "url": "https://github.com/tj/co/commit/c66f0a40fbf2d178342543b3a65766441e396c4b"
+      },
+      {
+        "sha": "717b043371ba057cb7a4a2a4e47120d598116ed7",
+        "message": "Merge pull request #273 from ericelliott/patch-1\n\nUpdate platform compat in README.",
+        "date": "2016-05-20T02:06:12Z",
+        "author": "tj",
+        "url": "https://github.com/tj/co/commit/717b043371ba057cb7a4a2a4e47120d598116ed7"
+      },
+      {
+        "sha": "6e58f571b8a85aa4e2b96d4e35b9f0f95e090ba3",
+        "message": "Update platform compat.\n\nio.js has merged into Node v4+, which supports generators out of the box.",
+        "date": "2016-05-20T01:51:23Z",
+        "author": "ericelliott",
+        "url": "https://github.com/tj/co/commit/6e58f571b8a85aa4e2b96d4e35b9f0f95e090ba3"
+      },
+      {
+        "sha": "cce393407beaf5233d250ebf845e0a686ff74fa8",
+        "message": "Add newline for consistency",
+        "date": "2016-04-28T02:52:36Z",
+        "author": "saadq",
+        "url": "https://github.com/tj/co/commit/cce393407beaf5233d250ebf845e0a686ff74fa8"
+      },
+      {
+        "sha": "4df983bb8ec7aca3761fb3a764d0f25cda0954db",
+        "message": "Merge pull request #259 from tuvistavie/master\n\nAvoid warning when using bluebird as Promise implementation.",
+        "date": "2016-02-15T21:17:18Z",
+        "author": "tj",
+        "url": "https://github.com/tj/co/commit/4df983bb8ec7aca3761fb3a764d0f25cda0954db"
+      },
+      {
+        "sha": "b3ad55a46006c4746184f597ccc7479e291b4ce2",
+        "message": "Avoid warning when using bluebird as Promise implementation.",
+        "date": "2016-01-18T04:55:53Z",
+        "author": "Daniel Perez",
+        "url": "https://github.com/tj/co/commit/b3ad55a46006c4746184f597ccc7479e291b4ce2"
+      },
+      {
+        "sha": "02c9eee2fc161390353f343facfd085a5d0021df",
+        "message": "Merge pull request #255 from cookfront/master\n\nadd missing quote",
+        "date": "2016-01-13T16:48:10Z",
+        "author": "tj",
+        "url": "https://github.com/tj/co/commit/02c9eee2fc161390353f343facfd085a5d0021df"
+      }
+    ],
+    "contributors": [
+      {
+        "login": "tj",
+        "contributions": 145,
+        "url": "https://github.com/tj"
+      },
+      {
+        "login": "jonathanong",
+        "contributions": 76,
+        "url": "https://github.com/jonathanong"
+      },
+      {
+        "login": "TooTallNate",
+        "contributions": 6,
+        "url": "https://github.com/TooTallNate"
+      },
+      {
+        "login": "juliangruber",
+        "contributions": 5,
+        "url": "https://github.com/juliangruber"
+      },
+      {
+        "login": "matthewmueller",
+        "contributions": 4,
+        "url": "https://github.com/matthewmueller"
+      },
+      {
+        "login": "Pana",
+        "contributions": 3,
+        "url": "https://github.com/Pana"
+      }
+    ],
+    "latestRelease": null,
+    "fetchedAt": "2026-10-26T19:14:50.651Z"
+  }
+]
